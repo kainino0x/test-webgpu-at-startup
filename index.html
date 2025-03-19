@@ -1,4 +1,4 @@
 <pre id=pre></pre>
 <script type=module>
-  pre.textContent = String(navigator.gpu)
+  pre.textContent = String(await navigator.gpu.requestAdapter());
 </script>
