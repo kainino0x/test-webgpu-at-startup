@@ -1,0 +1,2 @@
+selenium>=4.29.0
+chromedriver-binary==134.0.6998.88
